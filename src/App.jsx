@@ -181,18 +181,12 @@ export default function App() {
           width: '100%',
           marginTop: '100px',
         }}>
-          <div className='max-w-7xl mx-auto px-4' style={{
-            transform: 'none !important',
-            willChange: 'auto !important',
-            animation: 'none !important',
-            transition: 'none !important',
-          }}>
+          <div className='max-w-7xl mx-auto px-4'>
             <div style={{
-              transform: 'none !important',
+              transform: 'translateY(0px) !important',
               willChange: 'auto !important',
               animation: 'none !important',
               transition: 'none !important',
-              position: 'static !important',
             }}>
               <FooterFramerComponent.Responsive />
             </div>
