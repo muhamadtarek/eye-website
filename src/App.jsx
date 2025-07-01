@@ -177,14 +177,12 @@ export default function App() {
 
         {/* Footer */}
         <div className="footer-container w-full flex justify-center" style={{
-          position: 'fixed',
-          bottom: 0,
-          left: 0,
-          right: 0,
+          position: 'relative',
           width: '100%',
-          transform: 'none !important',
+          transform: 'translate3d(0, 0, 0) !important',
           willChange: 'auto !important',
-          zIndex: 1000,
+          zIndex: 'auto',
+          marginTop: '100px',
         }}>
           <div className='max-w-7xl mx-auto px-4'>
             <FooterFramerComponent.Responsive />
