@@ -179,13 +179,23 @@ export default function App() {
         <div className="footer-container w-full flex justify-center" style={{
           position: 'relative',
           width: '100%',
-          transform: 'translate3d(0, 0, 0) !important',
-          willChange: 'auto !important',
-          zIndex: 'auto',
           marginTop: '100px',
         }}>
-          <div className='max-w-7xl mx-auto px-4'>
-            <FooterFramerComponent.Responsive />
+          <div className='max-w-7xl mx-auto px-4' style={{
+            transform: 'none !important',
+            willChange: 'auto !important',
+            animation: 'none !important',
+            transition: 'none !important',
+          }}>
+            <div style={{
+              transform: 'none !important',
+              willChange: 'auto !important',
+              animation: 'none !important',
+              transition: 'none !important',
+              position: 'static !important',
+            }}>
+              <FooterFramerComponent.Responsive />
+            </div>
           </div>
         </div>
       </main>
